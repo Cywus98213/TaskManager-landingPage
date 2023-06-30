@@ -7,7 +7,7 @@ export default function AppSection() {
   return (
     <>
       <div className="app-section-wrapper">
-        {/* <div className="middle-layer">
+        <div className="middle-layer">
           <p className="layer-sm"></p>
           <p className="layer-md"></p>
           <p className="layer-md"></p>
@@ -15,7 +15,7 @@ export default function AppSection() {
           <p className="layer-md"></p>
           <p className="layer-md"></p>
           <p className="layer-esm"></p>
-        </div> */}
+        </div>
         <div className="app-intro">
           <h1>Layerio Helps You Increase Your Daily Productivity.</h1>
         </div>
