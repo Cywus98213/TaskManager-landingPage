@@ -1,0 +1,230 @@
+.app-section-wrapper {
+    background-color: var(--app-section-bg-clr);
+    color: var(--app-section-font-clr);
+    border-radius: var(--box-radius);
+    padding: var(--box-pd);
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    position: relative;
+    z-index: 2;
+}
+
+.app-download-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.app-intro h1 {
+    text-align: center;
+    font-weight: 500;
+    font-size: clamp(2rem, 4vw, 7rem);
+}
+
+.box1 {
+    color: var(--box1-font-clr);
+    padding: var(--box-pd);
+    border-radius: var(--box-radius);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 0.5rem;
+    background: linear-gradient(90deg, rgba(147, 137, 184, 1) 0%, rgba(193, 184, 221, 1) 100%);
+}
+
+.box1-header {
+    display: flex;
+}
+
+.box1-header p {
+    padding: 0.2rem 0.6rem;
+    border-radius: var(--box-radius);
+    background-color: rgb(133, 123, 163);
+    backdrop-filter: blur(10px);
+    font-weight: 600;
+    font-size: clamp(0.8rem, 1vw, 1.5rem);
+}
+
+.box1-content h1 {
+    font-size: clamp(1.1rem, 3vw, 2rem);
+}
+
+.box1-btn-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.box1-btn-wrapper img {
+    max-width: 100%;
+    height: auto;
+}
+
+.box2 {
+    padding: var(--box-pd);
+    border-radius: var(--box-radius);
+    outline: 1px var(--box-outline-clr) solid;
+}
+
+.box2-feature {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.feature-line {
+    display: flex;
+    gap: 1rem;
+}
+
+.feature-line p {
+    font-size: clamp(0.5rem, 1.25vw, 1.1rem);
+}
+
+.box3 {
+    display: flex;
+    padding: var(--box-pd);
+    border-radius: var(--box-radius);
+    outline: 1px var(--box-outline-clr) solid;
+}
+
+.box3-left {
+    flex: 1;
+    align-self: center;
+
+}
+
+.box3-left p {
+    font-weight: 500;
+    font-size: clamp(1rem, 2vw, 1.2rem);
+}
+
+.box3-right {
+
+    flex: 1.5;
+}
+
+.box3-right button {
+    font-size: clamp(0.5rem, 1vw, 1rem);
+}
+
+.box3-btn-gp {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.tutorial-btn {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: 500;
+    padding: var(--btn-pd);
+    border: none;
+    border-radius: var(--btn-border-radius);
+    background-color: var(--tutorial-btn-bg-clr);
+}
+
+.tutorial-btn-icon {
+    border-radius: 50%;
+    width: 1rem;
+    height: auto;
+}
+
+.learnMore-btn {
+    font-weight: 300;
+    padding: var(--btn-pd);
+    border: none;
+    border-radius: var(--btn-border-radius);
+    background-color: var(--learnmore-btn-bg-clr);
+    color: var(--learnmore-btn-font-clr);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.middle-layer p {
+    z-index: -1;
+    border-right: 1px var(--navbar-bgLine-clr) solid;
+}
+
+.layer-sm {
+    width: 10%;
+
+}
+
+.layer-md {
+    width: 20%;
+
+}
+
+.layer-md:nth-child(2) {
+    height: 90%;
+}
+
+.layer-md:nth-child(3) {
+    height: 50%;
+}
+
+.layer-md:nth-child(5) {
+    height: 50%;
+}
+
+.layer-lg {
+    height: 80%;
+    width: 30%;
+}
+
+.layer-esm {
+    height: 100%;
+}
+
+
+
+
+
+@media screen and (min-width: 767px) {
+    .app-download-section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        margin: auto;
+        padding: 2rem 0;
+        max-width: 95%;
+
+    }
+
+    .app-intro {
+        margin-top: 25em;
+    }
+
+    .box3 {
+        grid-column: 2 / 3;
+    }
+
+    .box1 {
+        grid-row: 1 / span 2;
+    }
+
+    .box3-right {
+        display: grid;
+    }
+
+    .box3-btn-gp {
+        flex-direction: row;
+    }
+
+}
