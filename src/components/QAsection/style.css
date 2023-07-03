@@ -1,0 +1,21 @@
+.qaSection-wrapper {
+    background-color: var(--qa-section-bg-clr);
+    display: grid;
+    place-content: center;
+    padding: 3rem 1rem;
+}
+
+.qaSection-header {
+    padding: 2rem;
+}
+
+.qaSection-header h1 {
+    font-weight: 600;
+    font-size: clamp(2rem, 4vw, 7rem);
+}
+
+.qaSection-questions {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}

@@ -1,0 +1,28 @@
+.questionCard {
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    padding: 1rem;
+
+    background-color: var(--qa-section-card-bg-clr);
+    box-shadow: 5px 5px 5px 0 var(--qa-section-card-shadow-clr);
+
+}
+
+.questionCard-icon img {
+    cursor: pointer;
+}
+
+.questionCard-icon {
+    display: flex;
+    margin-left: auto;
+}
+
+.questionCard-top {
+    display: flex;
+}
+
+.questionCard-A {
+    margin-top: 1rem;
+    background-color: var(--qa-section-card-bg-clr);
+}

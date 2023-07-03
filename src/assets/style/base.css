@@ -38,6 +38,12 @@
     --tutorial-btn-font-clr: #101010;
     --learnmore-btn-bg-clr: #404040;
     --learnmore-btn-font-clr: #fff;
+
+    /* qa section Color Schema */
+    --qa-section-bg-clr: #FFFFFF;
+    --qa-section-card-bg-clr: #F8F8F8;
+    --qa-section-card-shadow-clr: #f1eded;
+    --qa-section-font-clr: #101010;
 }
 
 
